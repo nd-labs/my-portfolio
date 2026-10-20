@@ -29,3 +29,8 @@ summary{color:#f3eaff}summary span{color:#d5ff70}.flow{background:#251831;color:
 .email-contact a{color:#d5ff70}.email-contact a:hover{color:#9af2e4}footer{color:#e9dcf6}footer p,footer>a:last-child{color:#bcb2cc}
 .skip{background:#d5ff70;color:#191025}.quiet-scene{background:#100c1c}
 @media(max-width:650px){.quiet-scene{background:#100c1c}}
+
+/* Compact right-aligned email contact */
+.email-contact{padding:24px 0;text-align:right;display:flex;justify-content:flex-end}
+.email-contact a{font-size:12px;line-height:1.6;text-decoration:none;overflow-wrap:anywhere}
+.email-contact a:hover{text-decoration:underline;text-underline-offset:4px}
