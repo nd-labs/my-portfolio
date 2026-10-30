@@ -13,3 +13,10 @@ article:nth-child(3n) .topic-sketch{animation-delay:-4s}
 @media(hover:hover){article:hover .topic-sketch{color:#ffab91}}
 @keyframes sketch-drift{0%,100%{transform:translateY(0) rotate(-.5deg)}50%{transform:translateY(-3px) rotate(.5deg)}}
 @media(prefers-reduced-motion:reduce){.topic-sketch{animation:none;transition:none}}
+
+/* Personal portrait in the header brand. */
+.nav .brand{display:inline-flex;align-items:center;gap:12px;flex-shrink:0}
+.nav .brand-portrait{display:block;width:48px;height:48px;border-radius:50%;object-fit:cover;filter:grayscale(1);border:1px solid #ffffff40;flex-shrink:0}
+.nav .brand-label{display:block}
+.nav .brand-caption{margin-left:0;margin-top:5px}
+@media(max-width:600px){.nav .brand{gap:10px}.nav .brand-portrait{width:42px;height:42px}}
